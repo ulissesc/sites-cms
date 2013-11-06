@@ -43,9 +43,9 @@ ul.icons {
 }
 
 i.logo-empresa{
-  background: url("../zangraf/zangraf-logo-pequeno.png");
-  width: 200px;
-  height: 109px;
+  background: url("../zangraf/zangraf-logo-pequeno.png") no-repeat;
+  width: 170px;
+  height: 87px;
   display: block;
 }
 hr.separador {
@@ -1125,3 +1125,15 @@ textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[ty
   }
  }
 
+
+/* ALTERADO */
+.center{
+  text-align: center;
+}
+.text-right {
+  text-align: right;
+}
+.copyrigth{
+  padding: 20px;
+  opacity: 0.5;
+}

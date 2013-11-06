@@ -47,3 +47,5 @@ gem 'comfortable_mexican_sofa', '~> 1.10.0'
 # gem 'debugger', group: [:development, :test]
 
 gem "font-awesome-rails"
+gem 'rails-i18n'
+gem 'af'

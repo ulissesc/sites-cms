@@ -11,9 +11,10 @@
  *= require_self
  *= require zangraf/bootstrap
  *= require zangraf/bootstrap-responsive
- *= require zangraf/style
- *= require zangraf/style-bgd-gray-jean
  *= require zangraf/style-color-SteelBlue
+ *= require zangraf/gallery
+ *= require zangraf/style
+ *= require zangraf/style-bgd-gray-wood
  *= require zangraf/nojs
  *= require font-awesome
  */

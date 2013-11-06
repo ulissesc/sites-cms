@@ -54,9 +54,10 @@ test:
   password: root
 
 production:
+  host: localhost
   adapter: postgresql
   encoding: unicode
   database: sites-cms_production
   pool: 5
   username: sites-cms
-  password:
+  password: 123

@@ -1,6 +1,11 @@
 SitesCms::Application.routes.draw do
   ComfortableMexicanSofa::Routing.admin :path => '/admin'
 
+
+  get 'contato' => 'contato#index'
+
+  post 'contato/send_mail' => "contato#send_mail"
+
   # Make sure this routeset is defined last
   ComfortableMexicanSofa::Routing.content :path => '/', :sitemap => false
 
@@ -13,7 +18,6 @@ SitesCms::Application.routes.draw do
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
-  get 'contato' => 'contato#index'
 
   # Example of named route that can be invoked with purchase_url(id: product.id)
   #   get 'products/:id/purchase' => 'catalog#purchase', as: :purchase
