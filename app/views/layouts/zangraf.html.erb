@@ -73,22 +73,20 @@
 		</div><!--end: sidebar -->
 
 		<!--start: content -->
-		<div class="content">
-			
-			<div class="span9">
-				<% flash.each do |type, message| %>
-			      <div class='flash <%= type %>'><%= message %></div>
-			    <% end %>
-
-				<%= yield %>	
+		<div class="content">				
 
 
-				<div class="span9 offset1 ">
+			<%= yield %>	
+ 
+ 			
+ 			<div class="row">
+			<div class="span12">
+				
 					<div class="text-right copyrigth">
 					<a href="http://www.parseint.com.br" target="_blank" alt="Desenvolvimento Parseint.com.br">Desenvolvimento Parseint.com.br</a>
 					</div>
-				</div>
-				
+
+			</div>
 			</div>
 
 		</div><!--end: content --> 
