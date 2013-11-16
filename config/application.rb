@@ -20,7 +20,10 @@ module SitesCms
     # config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}').to_s]
     # config.i18n.default_locale = :de
 
+    config.assets.enabled = false
+    
     config.railties_order = [ :all, ComfortableMexicanSofa::Engine ]
+
   end
 end
 
