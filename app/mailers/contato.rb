@@ -1,9 +1,10 @@
 class Contato < ActionMailer::Base
-  default from: "parseint.sistemas@gmail.com"
+  default from: "parseint@parseint.com.br"
+  default to: "contato@zangraf.com.br"
 
   def send_mail(message)
   	body = "Nome: #{message.name}\r\nE-mail: #{message.email}\r\nMensagem: #{message.content}"
-    mail(to: "torquatro@gmail.com", subject: "Mensagem Site P- #{message.name}", :body => body)
+    mail(subject: "Mensagem vindo de  - #{message.vindo_de}", :body => body)
   end
 
 end

@@ -50,5 +50,5 @@ gem "font-awesome-rails"
 gem 'rails-i18n'
 gem 'af'
 
-gem 'execjs'
-gem 'therubyracer', :platforms => :ruby
+#gem 'execjs'
+#gem 'therubyracer', :platforms => :ruby
